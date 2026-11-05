@@ -13,3 +13,4 @@ print('É alfabético?', tipo.isalpha())
 print('É alfanumérico?', tipo.isalnum())
 print('Está em minúsculas?', tipo.islower())
 print('Está em maiúsculas?', tipo.isupper())
+#é basicamente a definição de dissecar uma variável.
