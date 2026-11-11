@@ -44,6 +44,17 @@ d = n/5
 print(f'você possui {d} em dólares')
 
 # 7- Faça um programa que leia a altura e largura de uma parede em metros, calcule sua área e quantidade de tinta necessária para pintá-la, sabendo que cada litro de tinta, pinta uma área de 2m².
+larg = float(input('Largura da parede:'))
+alt = float(input('Altura da parede:'))
+area = larg * alt
+print(f'A parede tem a dimensão de {larg} x {alt} e sua área é de {area}.')
+tinta = area/2
+print(f'Para pintar essa parede você precisa de {tinta}L de tinta')'
+
 # 8- Faça um algorítimo que leia o preço de um produto e mostre seu novo preço com 5% de desconto.
+preço = float (input('Digite o preço do produto: R$'))
+novo = preço - (preço*5/100)
+print(f'O produto que custava {preço}, na promoção, com desconto de 5% vai custar R$ {novo}')
+
 # 9- Faça um algorítimo que leia um salário de um funcionário e mostre seu novo salário com 15% de aumento.
  
